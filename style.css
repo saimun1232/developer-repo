@@ -9,3 +9,44 @@ body{
     height: 100%;
     padding: 10ppx 20px;
 }
+.section{
+    display: flex;
+}
+.haf-width{
+    width: 50%;
+    padding: 5px;
+}
+.div-one{
+
+}
+
+.heading{
+    color: rgb(0, 99, 66);
+    padding-left: 2%;
+}
+.heading2{
+    color: coral;
+    padding: 5px;
+    border-left: 2px solid rgb(255, 0, 0);
+    
+}
+.heading3{
+    padding: 5px;
+}
+.div-one{
+
+}
+.para1{
+    text-align: justify;
+    padding: 5px;
+}
+.image1{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+   /* background-color: coral;*/
+   background-image: linear-gradient(orange 30%, coral);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
