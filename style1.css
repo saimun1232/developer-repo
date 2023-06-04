@@ -30,3 +30,14 @@ section{
     border-radius: 5px;
     font-weight: 700;
 }
+.sec-color{
+    color: rgb(3, 244, 119);
+}
+.link-btn1{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image:linear-gradient(rgb(8, 187, 223) 30%,rgb(13, 202, 142) 70%);
+    color: black;
+    border-radius: 5px;
+    font-weight: 700;
+}
