@@ -1,64 +1,108 @@
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: bisque;
+*{
+    margin: 0;
+    padding: 0;
 }
-.head{
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-    height: 400px;
-    width: 1000px;
+/*section1 start*/
+.header{
     background-image: url(donation5.jpg);
     background-repeat: no-repeat;
-}
-.heading{
+    width: 1200pX;
+    height: 400px;
     margin: 0 auto;
-    padding: 10px;
+    position: relative;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.head{
+    text-decoration: underline;
     text-align: center;
-    height: 300px;
+    color: rgb(8, 248, 152);
     width: 500px;
-    align-items: center;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-h1,h3{
-    text-align: center;
-    color: rgb(0, 89, 255);
+.head h6{
+    text-align: justify;
+    color: chocolate;
+    font-size: 15px;
 }
-h6{
-        text-align: center;
-        color: rgb(242, 136, 7);
+.head button{
+    border: 2px inset white;
+    background-image: linear-gradient( coral, orange);
 }
-button{
-    background-image: linear-gradient(orange,rgb(80, 243, 255));
-    padding: 5px;
-    border-radius: 10px;
-}
-.head-btn{
+/*section1 end*/
+/*section2 start*/
+.sec1{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
     display: flex;
-    margin: 50px;
+    justify-content: center;
+    align-items: center;
 
 }
-.head-btn div{
-    background-color: darkgray;
-    margin: 0px 10px;
-    height: 50px;
-    width: 100px;
-    text-align: center;
-    padding: 10px;
+.sec1 div{
+    box-sizing: border-box;
 }
-input{
+.sec1 div h1{
+    text-align: center;
+    color: rgb(0, 136, 255);
+
+}
+.sec1 div h6{
+    text-align: center;
+    color: aqua;
+    font-size: 15px;
+}
+.sec-head .prob {
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.sec-head .prob button{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: beige;
     padding: 5px;
-    margin: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
     border: none;
-    background-color: bisque;;
+
+}
+.sec-head .prob button:hover{
+    background-color: rgba(255, 140, 0, 0.5);
+}
+.sec-head .prob button:focus{
+    border: 5px inset coral;
+    background-color: rgb(223, 139, 11);
+}
+.sec1 .input{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    text-align: center;
+    margin: 10px auto;
+
+}
+.sec1 .input input{
+    font-size: 25px;
+    margin-bottom: 5px;
+    border: none;
+}
+.sec1 .input input:focus{
+    border: none;
 }
 hr{
-    margin: 0;
-    border-bottom: 5px solid black;
+    width: 100%;
+    height: 2px;
+    color: rgb(0, 0, 0);
 }
-.main1{
-    text-align: center;
-}
-.flex{
-    display: flex;
-}
+.sec1 .sec-head #btn{
+    border: 2px inset white;
+    background-image: linear-gradient( coral, orange);}
